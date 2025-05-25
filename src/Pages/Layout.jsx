@@ -11,7 +11,7 @@ export default function Layout (){
                 <button className="flex items-center justify-center gap-2 font-semibold text-base hover:cursor-pointer"
                         onClick={()=>{ const dark= darkMode
                             setDarkMode(!dark)}}>
-                    <img className="h-4" src={  darkMode? "/images/moon.png": "/images/moon-outline.svg"} alt="theme switcher" />     
+                    <img className="h-4" src={  darkMode? "/rest-countries-api/images/moon.png": "/rest-countries-api/images/moon-outline.svg"} alt="theme switcher" />     
                     Dark Mode
                 </button>
             </header>

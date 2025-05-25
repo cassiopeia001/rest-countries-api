@@ -29,7 +29,7 @@ export default function Country(){
         <div className="px-5 py-8 text-base">
             <button className={`${darkMode ? "bg-Blue-900": "bg-White"} shadow-lg px-6 py-2 rounded-sm mb-10 hover:cursor-pointer`}
                     onClick={()=>navigate(-1)}>
-                <img src="/images/arrow-back-outline.svg" alt="arrow back"  className="inline-block align-middle w-4 h-4"/>
+                <img src="/rest-countries-api/images/arrow-back-outline.svg" alt="arrow back"  className="inline-block align-middle w-4 h-4"/>
                 <span className="inline-block ml-2">Back</span>
                 
             </button>

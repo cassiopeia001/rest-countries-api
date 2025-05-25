@@ -50,7 +50,7 @@ export default function Home(){
 
                 <form onSubmit={handleInputSearch}
                     className={`w-full flex items-center gap-6 py-4 pl-8 rounded-md shadow-lg mb-10 md:w-md md:mb-0 ${darkMode? "bg-Blue-900": "bg-White"}`}>
-                    <img className="h-4" src="/images/search-outline.svg" alt="search" />
+                    <img className="h-4" src="/rest-countries-api/images/search-outline.svg" alt="search" />
                     <input className={`outline-0 w-full ${darkMode? "placeholder:text-White text-White": "placeholder:text-Grey-400 text-Grey-400"}`} 
                             type="search" name="search" id="search" 
                             placeholder="Search for a country..." 
@@ -70,7 +70,8 @@ export default function Home(){
                         <option value="Oceania">Oceania</option>
                         <option value="Americas">America</option>
                     </select>
-                    <img className="h-3 absolute top-1/2 transform -translate-y-1/2  right-5 z-10 pointer-events-none" src="/images/chevron-down-outline.svg" alt="arrow down" />
+                    <img className="h-3 absolute top-1/2 transform -translate-y-1/2  right-5 z-10 pointer-events-none" 
+                         src="/rest-countries-api/images/chevron-down-outline.svg" alt="arrow down" />
                 </div>
             </div>
            {countriesList &&
