@@ -15,7 +15,7 @@ export default function Layout (){
                     Dark Mode
                 </button>
             </header>
-            <main className={` h-full w-full ${darkMode? "bg-Blue-950 text-White":"bg-Grey-50 text-Grey-950"}`}>
+            <main className={`min-h-screen w-full ${darkMode? "bg-Blue-950 text-White":"bg-Grey-50 text-Grey-950"}`}>
                 <Outlet context={darkMode} />
             </main>
         </>

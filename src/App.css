@@ -9,3 +9,8 @@
     --color-White : hsl(0, 100%, 100%);
     --font-nunito: "Nunito Sans", sans-serif;
 }
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
