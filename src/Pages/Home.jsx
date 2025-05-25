@@ -21,12 +21,6 @@ export default function Home(){
         
     },[countriesList])
 
-    useEffect(() => {
-        if (displayedCountries) {
-            console.log('Updated list:', displayedCountries);
-        }
-        }, [displayedCountries]);
-
     function handleRegionChange(e){
         
        const region= e.target.value 

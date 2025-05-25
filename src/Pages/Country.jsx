@@ -19,12 +19,7 @@ export default function Country(){
         }
 
     }, [countriesList, code])
-    useEffect(()=>{
 
-        if(countryInfo){
-            console.log(countryInfo);
-        }
-    },[countryInfo])
     return (
         <div className="px-5 py-8 text-base">
             <button className={`${darkMode ? "bg-Blue-900": "bg-White"} shadow-lg px-6 py-2 rounded-sm mb-10 hover:cursor-pointer`}
