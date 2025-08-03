@@ -9,10 +9,6 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -31,9 +27,9 @@ Users should be able to:
 ### Screenshot
 
 ![all countries displayed](./public/images/homepage.png)
+![homepage dark mode](./public/images/hompage_dark.png)
 ![homepage region filtering](./public/images/region_filtering.png)
 ![input search](./public/images/input_search.png)
-![homepage dark mode](./public/images/hompage_dark.png)
 ![country detail page](./public/images/country_page.png)
 
 
@@ -54,7 +50,7 @@ Users should be able to:
 - Responsive Design
 - [React](https://reactjs.org/) - JS library
 - [React-Router](https://reactrouter.com/) - A multi-strategy router for React
-- [Rest-countries-API](https://restcountries.com/) - an RESTful API that provides information about countries
+- [Rest-countries-API](https://restcountries.com/) - a RESTful API that provides information about countries
 - [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework
 - [Motion](https://motion.dev/docs/react) - React animation library
 
